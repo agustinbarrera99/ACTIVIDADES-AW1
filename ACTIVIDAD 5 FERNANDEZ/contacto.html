@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Matías Valenzuela</title>
+</head>
+<body>
+
+    <h1>Contacto</h1>
+    <p>Ponte en contacto conmigo. Completa el siguiente formulario para solicitar una evaluación inicial o resolver cualquier duda sobre la seguridad de tus sistemas. Te responderé a la brevedad con una propuesta de trabajo.</p>
+
+    <form action="" method="POST">
+        <!-- Campo: Nombre completo -->
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <!-- Campo: Correo corporativo -->
+        <label for="email">Correo electrónico corporativo:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Campo: Servicio de interés (Lista desplegable) -->
+        <label for="servicio">Servicio de interés:</label>
+        <select id="servicio" name="servicio" required>
+            <option value="">Selecciona una opción...</option>
+            <option value="auditoria_web">Auditoría de Seguridad Web</option>
+            <option value="analisis_redes">Análisis de Vulnerabilidades en Redes</option>
+            <option value="respuesta_incidentes">Respuesta a Incidentes</option>
+            <option value="otra">Otra consulta</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar solicitud">
+        
+    </form>
+
+    <br>
+    <a href="index.html">Volver a la página principal</a>
+
+</body>
+</html>
