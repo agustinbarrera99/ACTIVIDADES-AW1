@@ -55,6 +55,21 @@ h2 {
     margin-bottom: 10px;
 }
 
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(19, 18, 18);
+    border-radius: 5px;
+    font-size: 16px;
+}
 
 header nav ul {
     display: flex;
@@ -64,4 +79,20 @@ header nav ul {
 
 footer p {
     color: aliceblue;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+.boton {
+    background-color: rgb(19, 18, 18);
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: azure;
+    color: rgb(19, 18, 18);
 }
