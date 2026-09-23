@@ -1,0 +1,145 @@
+/*
+   RESET 
+*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+p,
+ul {
+    margin-top: 0;
+}
+
+
+/*
+   MODELO DE CAJA ALTERNATIVO
+*/
+
+body,
+header,
+main,
+footer,
+section,
+nav,
+form,
+input,
+select {
+    box-sizing: border-box;
+}
+
+
+/*
+   SELECTORES DE TIPO
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #222222;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+
+/*
+   BLOQUES PRINCIPALES
+*/
+
+.encabezado {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
+
+.contenido-principal {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.pie-pagina {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
+
+
+/* 
+   SECCIONES
+ */
+
+.presentacion {
+    margin-bottom: 30px;
+}
+
+.servicios {
+    margin-bottom: 30px;
+}
+
+.contacto-inicial {
+    margin-bottom: 20px;
+}
+
+.formulario-contacto {
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+
+/*
+   SELECTORES COMBINADOS
+*/
+
+.encabezado nav a {
+    color: white;
+    margin-right: 15px;
+}
+
+.contenido-principal h2 {
+    color: #1f2937;
+}
+
+.servicios li {
+    line-height: 1.5;
+}
+
+.formulario-contacto label {
+    font-weight: bold;
+}
+
+.formulario-contacto input[type="submit"] {
+    background-color: #1f2937;
+    color: white;
+    border: none;
+}
