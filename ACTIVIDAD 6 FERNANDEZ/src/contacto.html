@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - Matías Valenzuela</title>
+
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1>Contacto</h1>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+
+    <main class="contenido-principal">
+
+        <section>
+
+            <h2>Formulario de contacto</h2>
+
+            <p>
+                Ponte en contacto conmigo. Completa el siguiente formulario
+                para solicitar una evaluación inicial o resolver cualquier
+                duda sobre la seguridad de tus sistemas. Te responderé a la
+                brevedad con una propuesta de trabajo.
+            </p>
+
+            <form class="formulario-contacto"
+                  action=""
+                  method="POST">
+
+                <!-- Campo: Nombre completo -->
+
+                <label for="nombre">
+                    Nombre completo:
+                </label>
+
+                <input type="text"
+                       id="nombre"
+                       name="nombre"
+                       required>
+
+
+                <!-- Campo: Correo corporativo -->
+
+                <label for="email">
+                    Correo electrónico corporativo:
+                </label>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       required>
+
+
+                <!-- Campo: Servicio de interés -->
+
+                <label for="servicio">
+                    Servicio de interés:
+                </label>
+
+                <select id="servicio"
+                        name="servicio"
+                        required>
+
+                    <option value="">
+                        Selecciona una opción...
+                    </option>
+
+                    <option value="auditoria_web">
+                        Auditoría de Seguridad Web
+                    </option>
+
+                    <option value="analisis_redes">
+                        Análisis de Vulnerabilidades en Redes
+                    </option>
+
+                    <option value="respuesta_incidentes">
+                        Respuesta a Incidentes
+                    </option>
+
+                    <option value="otra">
+                        Otra consulta
+                    </option>
+
+                </select>
+
+
+                <input type="submit"
+                       value="Enviar solicitud">
+
+            </form>
+
+        </section>
+
+        <a href="index.html">
+            Volver a la página principal
+        </a>
+
+    </main>
+
+
+    <footer class="pie-pagina">
+        <p>Matías Valenzuela - Servicios de Ciberseguridad</p>
+    </footer>
+
+</body>
+
+</html>
